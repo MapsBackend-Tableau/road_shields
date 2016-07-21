@@ -84,7 +84,7 @@ class ShieldLabels:
                     key = item['properties']['ids_and_re']
                     geom = shape(item['geometry'])
                     # find all motorways within the New Zealand mainland
-                    # and remove all letters per  BUGZID: 106030
+                    # and remove all letters per  
                     newZeaBox = [(17920614.01, -4033681.682),(20362002, -4054837.565),(20357771.35, -6073108.484),(17683668.157,-6068877.308)]
                     newZeaPoly = Polygon(newZeaBox)
                     if geom.within(newZeaPoly):
