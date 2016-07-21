@@ -86,7 +86,7 @@ The scripts ShieldLabels.py and Nodify.py are designed to generate shield label 
    
    Example inputs for 'radius' are:
    
-   USA:
+   USA & Global:
    * note: generate a new qix file for each of the output files before using it as an input
    
 		- radius: 50000 (note: run on the 30000 output file)
@@ -104,23 +104,6 @@ The scripts ShieldLabels.py and Nodify.py are designed to generate shield label 
 		- radius: 4000
 		  zoom: 13
    
-    Global:
-    * note: generate a new qix file for each of the output files before using it as an input
-   
-		- radius: 50000 (note: run on the 30000 output file)
-		  zoom: 9
-		  
-		- radius: 30000 (note: run on the 16000 output file)
-		  zoom: 10
-		  
-		- radius: 16000 (note: run on the 8000 output file)
-		  zoom: 11
-		  
-		- radius: 8000 (note: run on the 4000 output file)
-          zoom: 12
-		
-		- radius: 4000
-		  zoom: 13
     
 5) The user takes the 5 output files from Nodify.py and sets the zoom attribute according to the radius parameter (see above).
    Merge all 5 output files together into ONE shapefile. Generate a qix file. MANUALLY REMOVE ANY INCORRECT POINTS THAT WERE CAUSED BY 
